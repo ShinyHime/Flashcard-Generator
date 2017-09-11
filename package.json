@@ -1,0 +1,30 @@
+{
+  "name": "flashcard",
+  "version": "1.0.0",
+  "description": "A node application that will generate basic and cloze flashcards through the use of object constructors. ",
+  "main": "BasicCard.js",
+  "dependencies": {
+    "inquirer": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShinyHime/Flashcard-Generator.git"
+  },
+  "keywords": [
+    "Flashcard",
+    "Node.JS",
+    "BasicFlashcard",
+    "ClozeFlashcard",
+    "ObjectConstructors"
+  ],
+  "author": "Cassandra Villaruel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShinyHime/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/ShinyHime/Flashcard-Generator#readme"
+}
