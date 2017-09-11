@@ -75,7 +75,7 @@ function clozeCreation() {
   }, {
     type: "input",
     name: "cloze",
-    message: "Enter the 'answer in the Full Text that you would like to hide'.",
+    message: "Enter the 'answer' in the Full Text that you would like to hide.",
   }
 
 ]).then(function (answers) {
@@ -84,7 +84,7 @@ function clozeCreation() {
 
     console.log("***********");
     console.log("***********");
-    console.log("BASIC FLASHCARD")
+    console.log("CLOZE FLASHCARD")
     console.log(clozeFlashCard);
     console.log("");
     console.log("Full Text: " + clozeFlashCard.fullText);
